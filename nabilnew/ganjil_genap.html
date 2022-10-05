@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menentukan Bilangan Ganjil atau Genap</title>
+</head>
+<body>
+    
+    <h2>Menentukan Bilangan Ganjil atau Genap</h2>
+    <form name="form1">
+        <table>
+            <tr>
+                <td>Bilangan</td>
+                <td>:</td>
+                <td><input type="text" name="bilangan" id="bilangan" required placeholder="Masukkan nilai"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="submit" value="Tentukan" onclick="hasil()"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
+
+<script>
+    function hasil(){
+        var bilangan;
+
+        bilangan = document.getElementById('bilangan').value;
+
+        a = parseInt(bilangan);
+
+        if (a%2 == 0){
+            alert(a + ' adalah bilangan genap');
+        } else {
+            alert(a + ' adalah bilangan ganjil');
+        }
+    }
+</script>
