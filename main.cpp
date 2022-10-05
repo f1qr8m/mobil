@@ -25,7 +25,7 @@ void draw(void)
 {
     glClear(GL_COLOR_BUFFER_BIT);
     glBegin(GL_LINE_LOOP);
-    glColor3f(1.0, 0.0, 0.0);
+    glColor3f(1.0, 1.0, 0.0);
     glVertex2f(-10.0, 0.0);
     glVertex2f(10.0, 0.0);
 
