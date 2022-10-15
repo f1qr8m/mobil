@@ -10,6 +10,7 @@ void draw(void);
 void init(void);
 //puspita
 //fiqram
+//mawar
 int main(int argc, char** argv)
 {
     glutInit(&argc, argv);
