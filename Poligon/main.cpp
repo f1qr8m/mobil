@@ -9,7 +9,6 @@
 void draw(void);
 void init(void);
 //puspita
-//AYUUUUU
 int main(int argc, char** argv)
 {
     glutInit(&argc, argv);
