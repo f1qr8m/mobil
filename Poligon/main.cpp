@@ -9,7 +9,7 @@
 void draw(void);
 void init(void);
 //puspita
-//fiqram
+//FIQRAM FAATHIR
 int main(int argc, char** argv)
 {
     glutInit(&argc, argv);
